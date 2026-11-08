@@ -1,0 +1,21 @@
+{
+  "lc": 1,
+  "type": "constructor",
+  "id": [
+    "langchain",
+    "prompts",
+    "prompt",
+    "PromptTemplate"
+  ],
+  "kwargs": {
+    "input_variables": [
+      "audience",
+      "num_lines",
+      "topic"
+    ],
+    "template": "Explain {topic} in {num_lines} simple lines for a {audience}.",
+    "template_format": "f-string",
+    "validate_template": true
+  },
+  "name": "PromptTemplate"
+}
